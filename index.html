@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8">
+    <title>Treasure Hunt 🏴‍☠️</title>
+  </head>
+  <body style="background-color:yellow">
+    <center>
+    <h1> Treasure Hunt</h1>
+    <h2> Find the Treasure Win the Game</h2>
+    <div class="box">
+    <h3> Rules </h3>
+    <ul>
+      <li> Click the boxes to reveal what's on the map </li>
+      <li> If you click on the bomb, you lose </li>
+      <li> If you click on the treasure, you win </li>
+    </ul>
+  </div>
+    <img src="https://cdn.pixabay.com/photo/2019/03/12/16/14/chest-4051166_960_720.jpg" height="300px" alt="treasure chest">
+
+    <table>
+      <tr>
+        <td id="0" onclick="treasure(0)">?</td>
+        <td id="1" onclick="treasure(1)">?</td>
+        <td id="2" onclick="treasure(2)">?</td>
+      </tr>
+      <tr>
+        <td id="3" onclick="treasure(3)">?</td>
+        <td id="4" onclick="treasure(4)">?</td>
+        <td id="5" onclick="treasure(5)">?</td>
+      </tr>
+      <tr>
+        <td id="6" onclick="treasure(6)">?</td>
+        <td id="7" onclick="treasure(7)">?</td>
+        <td id="8" onclick="treasure(8)">?</td>
+      </tr>
+    </table>
+
+
+    <button type="button" onclick="location.reload()" name="Restart">Restart</button>
+
+
+  <script type="text/Javascript" src="treasurehunt.js"></script>
+  
+    </center>
+  </body>
+  <footer>
+
+  </footer>
+
+</html>
